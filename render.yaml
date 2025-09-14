@@ -1,0 +1,10 @@
+# Render部署配置文件
+# 指定构建命令
+buildCommand = "npm install"
+
+# 指定启动命令
+startCommand = "npm start"
+
+# 环境变量
+[env]
+NODE_ENV = "production"
